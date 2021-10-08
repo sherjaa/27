@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.kino__div{
+    width: 20%;
+    box-shadow: 0 0 8px 2px rgba(255, 0, 0, 0.445);
+    padding: 30px;
+    margin: 10px 25px;
+    border-radius: 15px 0 45px ;
+    color: #fff;
+    transition: 500ms;
+}
+.kino__div:hover{
+    transform: scale(1.05);
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+    background-color: #000;
+    
+}
+.sarlavha{
+    color: rgb(243, 245, 245);
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px;
+}
+ol{
+    margin: 0 25px;
+}
